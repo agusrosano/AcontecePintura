@@ -84,16 +84,12 @@ export const Cart = () => {
             ))}
           </ul>
         )}
-        {cart.length !== 0 && (
           <div className='flex justify-end items-end mt-5'>
-            <button
-              onClick={handleOpenCheckoutModal}
-              className="bg-green-600 hover:bg-green-700 text-white font-bold px-2 py-1 rounded"
-            >
-              Comprar
-            </button>
+             <button className="bg-sky-600 hover:bg-sky-300 text-white font-bold px-2 py-1 rounded">
+                Seguir Comprando
+             </button>
           </div>
-        )}
+
       </div>
       {cart.length !== 0 && (
         <div className="w-full lg:w-1/3 p-4 bg-white rounded-lg border shadow-lg mt-8 lg:mt-0 lg:ml-8">
@@ -116,8 +112,20 @@ export const Cart = () => {
             <span>Total:</span>
             <span>${calculateTotal()}</span>
           </div>
+          {cart.length !== 0 && (
+          <div className='flex justify-center items-center mt-5'>
+            <button
+              onClick={handleOpenCheckoutModal}
+              className="bg-green-600 hover:bg-green-700 text-white font-bold px-2 py-1 rounded"
+            >
+              Comprar
+            </button>
+          </div>
+        )}
         </div>
       )}
+
+      
       {isCheckoutModalOpen && (
         <CheckoutModal
           isOpen={isCheckoutModalOpen}
