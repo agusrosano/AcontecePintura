@@ -143,7 +143,7 @@ const CheckoutModal = ({ isOpen, onClose, handleSubmit }) => {
               >
                 <span className="flex-grow">Link de pago</span>
                 <svg
-                  className={`w-4 h-4 transform ${expanded === 'link' ? 'rotate-90' : 'rotate-0'} transition-transform duration-300`}
+                  className={`w-4 h-4 transform ${expanded === 'link' ? 'rotate-180' : 'rotate-0'} transition-transform duration-300`}
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
@@ -168,7 +168,7 @@ const CheckoutModal = ({ isOpen, onClose, handleSubmit }) => {
               >
                 <span className="flex-grow">QR</span>
                 <svg
-                  className={`w-4 h-4 transform ${expanded === 'qr' ? 'rotate-90' : 'rotate-0'} transition-transform duration-300`}
+                  className={`w-4 h-4 transform ${expanded === 'qr' ? 'rotate-180' : 'rotate-0'} transition-transform duration-300`}
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
@@ -193,7 +193,7 @@ const CheckoutModal = ({ isOpen, onClose, handleSubmit }) => {
               >
                 <span className="flex-grow">Transferencia bancaria</span>
                 <svg
-                  className={`w-4 h-4 transform ${expanded === 'transfer' ? 'rotate-90' : 'rotate-0'} transition-transform duration-300`}
+                  className={`w-4 h-4 transform ${expanded === 'transfer' ? 'rotate-180' : 'rotate-0'} transition-transform duration-300`}
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
