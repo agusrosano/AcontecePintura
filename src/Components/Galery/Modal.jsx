@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Modal = ({ isOpen, onClose, painting, handleAddToCart }) => {
     const [selectedColor, setSelectedColor] = useState(painting.colors ? painting.colors[0] : '');
@@ -17,13 +19,27 @@ const Modal = ({ isOpen, onClose, painting, handleAddToCart }) => {
   
     const handleAddToCartClick = () => {
       const newItem = {
-        ...painting,
-        selectedColor,
-        selectedLit,
-        quantity
-      };
-      console.log(newItem)
+          ...painting,
+          selectedColor,
+          selectedLit,
+          quantity
+        };
+      //console.log(newItem)
       handleAddToCart(newItem);
+
+
+      toast.success('¡Agregado al carrito con éxito!', {
+        position: "top-right",
+        autoClose: 2000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+      });
+  
+      // Retrasar el cierre del modal
+      setTimeout(onClose, 1000);
     };
   
     const incrementQuantity = () => {
@@ -35,6 +51,7 @@ const Modal = ({ isOpen, onClose, painting, handleAddToCart }) => {
     };
   
     return (
+    <> 
       <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
         <div className="bg-white p-6 rounded-lg w-3/4 flex flex-col lg:flex-row">
           {/* Imagen de la pintura */}
@@ -113,6 +130,8 @@ const Modal = ({ isOpen, onClose, painting, handleAddToCart }) => {
           </div>
         </div>
       </div>
+      <ToastContainer />
+    </>
     );
   };
   

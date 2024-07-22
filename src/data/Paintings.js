@@ -8,6 +8,7 @@ const paintings = [
       stock:15,
       description: "A depiction of the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence.",
       Tipo: "Esmaltes",
+      Precio:15000
     },
     {
         id: 2,
@@ -28,6 +29,7 @@ const paintings = [
         stock:15,
         description: "A depiction of the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence.",
         Tipo: "Impermeables",
+        Precio:15000
     },
     {
         id: 4,
@@ -38,6 +40,7 @@ const paintings = [
         stock:15,
         description: "A depiction of the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence.",
         Tipo: "Esmaltes",
+        Precio:15000
       },
       {
           id: 5,
@@ -48,6 +51,7 @@ const paintings = [
           stock:15,
           description: "A depiction of the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence.",
           Tipo: "Esmaltes",
+          Precio:15000
       },
       {
           id: 6,
@@ -58,6 +62,7 @@ const paintings = [
           stock:15,
           description: "A depiction of the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence.",
           Tipo: "Esmaltes",
+          Precio:15000
       },
       {
         id: 7,
@@ -68,6 +73,7 @@ const paintings = [
         stock:15,
         description: "A depiction of the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence.",
         Tipo: "Esmaltes",
+        Precio:19000
       },
       {
           id: 8,
@@ -78,6 +84,7 @@ const paintings = [
           stock:15,
           description: "A depiction of the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence.",
           Tipo: "Esmaltes",
+          Precio:15000
       },
       {
           id: 9,
@@ -88,6 +95,7 @@ const paintings = [
           stock:15,
           description: "A depiction of the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence.",
           Tipo: "Esmaltes",
+          Precio:10000
       },
       {
         id: 10,
@@ -98,6 +106,7 @@ const paintings = [
         stock:15,
         description: "A depiction of the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence.",
         Tipo: "Esmaltes",
+        Precio:15000
       },
       {
           id:11,
@@ -108,6 +117,7 @@ const paintings = [
           stock:15,
           description: "A depiction of the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence.",
           Tipo: "Impermeables",
+          Precio:8000
       },
       {
           id: 12,
@@ -118,6 +128,7 @@ const paintings = [
           stock:15,
           description: "A depiction of the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence.",
           Tipo: "Impermeables",
+          Precio:15000
       },
       {
         id: 13,
@@ -128,6 +139,7 @@ const paintings = [
         stock:15,
         description: "A depiction of the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence.",
         Tipo: "Impermeables",
+        Precio:15000
       },
       {
           id: 14,
@@ -138,6 +150,7 @@ const paintings = [
           stock:15,
           description: "A depiction of the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence.",
           Tipo: "Impermeables",
+          Precio:7000
       },
       {
           id: 15,
@@ -148,6 +161,7 @@ const paintings = [
           stock:15,
           description: "A depiction of the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence.",
           Tipo: "Impermeables",
+          Precio:15000
       }, {
         id: 16,
         title: "Star paint",
@@ -156,6 +170,7 @@ const paintings = [
         imageUrl: "https://http2.mlstatic.com/D_NQ_NP_991802-MLA52406191567_112022-O.webp",
         description: "A depiction of the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence.",
         Tipo: "Impermeables",
+        Precio:15000
       },
       {
           id: 17,
@@ -166,6 +181,7 @@ const paintings = [
           stock:15,
           description: "A depiction of the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence.",
           Tipo: "Latex",
+          Precio:15000
       },
       {
           id: 18,
@@ -176,6 +192,7 @@ const paintings = [
           stock:15,
           description: "A depiction of the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence.",
           Tipo: "Latex",
+          Precio:15000
       },{
         id: 19,
         title: "Star paint",
@@ -185,6 +202,7 @@ const paintings = [
         stock:15,
         description: "A depiction of the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence.",
         Tipo: "Latex",
+        Precio:15000
       },
       {
           id: 20,
@@ -195,6 +213,7 @@ const paintings = [
           stock:15,
           description: "A depiction of the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence.",
           Tipo: "Latex",
+          Precio:15000
       },
     // Agrega más pinturas aquí
   ];
