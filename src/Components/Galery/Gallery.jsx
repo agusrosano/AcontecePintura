@@ -18,7 +18,7 @@ const Gallery = () => {
     : paintings.filter(painting => painting.Tipo === selectedFilter);
 
   const handleAddToCart = (painting) => {
-    console.log(painting)
+    //console.log(painting)
     dispatch(addToCart(painting));
   };
 

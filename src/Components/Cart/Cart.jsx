@@ -42,7 +42,7 @@ export const Cart = () => {
   return (
     <div className="text-black p-4 bg-white-600 min-h-screen flex flex-col lg:flex-row">
       <div className="flex-grow">
-        <h1 className="text-2xl font-bold mb-4">Carrito :</h1>
+        {/* <h1 className="text-2xl font-bold mb-4">Carrito :</h1> */}
         {cart.length === 0 ? (
           <p>Tu carro está vacío.</p>
         ) : (

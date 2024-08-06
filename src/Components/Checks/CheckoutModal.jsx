@@ -157,7 +157,7 @@ const CheckoutModal = ({ isOpen, onClose, handleSubmit }) => {
               </button>
               {expanded === 'link' && (
                 <div className="p-4 border border-gray-300 rounded">
-                  <p>Enlace de pago: <a href="https://example.com" target="_blank" rel="noopener noreferrer">https://example.com</a></p>
+                  <p>Enlace de pago: <a href="link.mercadopago.com.ar/acontecepintureria" target="_blank" rel="noopener noreferrer">link.mercadopago.com.ar/acontecepintureria</a></p>
                 </div>
               )}
             </div>
